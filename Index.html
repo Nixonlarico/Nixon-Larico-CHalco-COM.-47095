@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carrito de Compras</title>
+</head>
+<body>
+    <h1>Productos Disponibles</h1>
+    <ul>
+        <li>Producto 1 - 10.00 PEN <button onclick="agregarAlCarrito('Producto 1', 10.00)">Agregar al carrito</button></li>
+        <li>Producto 2 - 15.00 PEN <button onclick="agregarAlCarrito('Producto 2', 15.00)">Agregar al carrito</button></li>
+        <li>Producto 3 - 20.00 PEN <button onclick="agregarAlCarrito('Producto 3', 20.00)">Agregar al carrito</button></li>
+        <li>Producto 4 - 25.00 PEN <button onclick="agregarAlCarrito('Producto 4', 25.00)">Agregar al carrito</button></li>
+    </ul>
+
+    <h1>Carrito de Compras</h1>
+    <ul id="carrito">
+        <!-- Los productos seleccionados se mostrarán aquí -->
+    </ul>
+
+    <h2>Resumen de Compra</h2>
+    <p>Total a Pagar: PEN <span id="total">0.00</span></p>
+
+    <script src="./main.js"></script>
+</body>
+</html>
